@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/searchLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:drawablePadding="8dp"
+            android:drawableLeft="@mipmap/search"
+            android:id="@+id/serchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:hint="@string/search"
+            android:maxLines="1" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/filter_list_bg"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:clipChildren="true"
+        android:orientation="vertical"
+        android:id="@+id/recycler_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchLinear" />
+
+    <include layout="@layout/filter_progress_bar"/>
+
+</RelativeLayout>

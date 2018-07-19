@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtdeptname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/txt_code_name"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/ezfbb_black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt_code_name"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/itemCheckBox"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:singleLine="true"
+        android:textColor="@color/ezfbb_black"
+        android:textSize="9sp" />
+
+    <CheckBox
+        android:layout_centerVertical="true"
+        android:id="@+id/itemCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:buttonTint="@color/ed_total_sales"
+        android:clickable="false"
+        android:focusable="false"
+        android:paddingTop="5dp" />
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:id="@+id/item_decorator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/line_dashed"
+        android:layerType="software"
+        android:paddingTop="2dp"/>
+
+</RelativeLayout>

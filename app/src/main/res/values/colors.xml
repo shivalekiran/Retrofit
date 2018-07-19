@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ezfb_black">#000000</color>
+    <color name="ed_total_sales_bg">#5294e4</color>
+
+    <color name="grey">#f0f0f0</color>
+    <color name="darker_grey">#666666</color>
+    <color name="text_grey">#CFD2D1</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="divider_salescard1">#ffffff</color>
+    <color name="bg_screen_color">#f8f6f6</color>
+    <color name="bg_store_code_text">#404040</color>
+    <!--
+        <color name="txt_color">#252525</color>
+    -->
+    <color name="smdm_green">#70e503</color>
+    <color name="smdm_amber">#ff7e00</color>
+
+
+    <!-- <color name="smdm_dark_Black">#252525</color>-->
+    <color name="smdm_divider_Black">#dfdedf</color>
+    <color name="smdm_divider_Black_light">#e8e8e8</color>
+    <color name="smdm_border">#dfdedf</color>
+    <color name="smdm_actionbar">#2277b1</color>
+
+
+    <!--New Color Changes-->
+    <!--New Color Changes-->
+
+    <color name="ezfbb_activity_background">#f8f6f6</color>
+    <color name="ezfbb_red">#e8112d</color>
+    <color name="ezfbb_black">#000000</color>
+
+
+    <!--New Color Changes-->
+
+    <color name="ezfb_activity_background">#f8f6f6</color>
+    <color name="ezfb_White">#ffffff</color>
+    <color name="ezfb_Red">#e8112d</color>
+    <color name="ezfb_statusbar">#808080</color>
+
+    <color name="hinttextcolor">#b2b2b2</color>
+
+    <!--EasyDays Color Changes-->
+
+    <color name="ed_total_sales">#003322</color>
+    <color name="ed_total_sales_new">#363636</color>
+    <color name="ed_light_pink">#fcded6</color>
+    <color name="ed_light_green">#a6ce39</color>
+    <color name="ed_light_orange">#fcded6</color>
+    <color name="ed_dark_orange">#f15a31</color>
+    <color name="ed_orange_new">#cc7b16</color>
+    <color name="ed_orange_bkgrnd">#f5e5d0</color>
+    <color name="ed_dark_red">#A60402</color>
+    <color name="ed_light_sky_blue">#ccedeb</color>
+    <color name="ed_dark_sky_blue">#00a79d</color>
+    <color name="ed_light_grey">#f0f0f0</color>
+    <color name="tab_basket_selected">#00000000</color>
+    <color name="tab_basket_unselected">#20000000</color>
+
+    <color name="ed_row_one">#ebf7f5</color>
+    <color name="ed_row_two">#eeeeee</color>
+
+    <color name="ed_yelloow">#FFA436</color>
+    <color name="ed_icon_red">#FF0012</color>
+    <color name="ed_card_bk">#E4E4E4</color>
+
+    // Campaign colors
+
+    <color name="progress_bar_relative_bg">#50dfdddd</color>
+
+    <color name="app_status_bar">#ccc8c8</color>
+    <color name="app_action_bar">#ffffff</color>
+    <color name="app_control_active">#e41024</color>
+    <color name="app_control_highlight">#afc29e9e</color>
+
+
+    <color name="filter_list_bg">#f5f5f5</color>
+    <color name="filter_list_divider">#dddee0</color>
+    <color name="filter_close_bg">#575b69</color>
+    <color name="actual_sale_bg">#fcded6</color>
+    <color name="plan_sale_bg">#003322</color>
+    <color name="first_last_c">#007976</color>
+
+    // new dashboard colors
+    <color name="dash_green">#a6ce39</color>
+    <color name="dash_red">#f71700</color>
+    <color name="dash_orange">#f05b31</color>
+    <color name="dash_dark_green">#053322</color>
+    <color name="dash_blue">#2da89d</color>
+    <color name="dash_grey">#f0f0f0</color>
+    <color name="light_dark_green">#7ca119</color>
+
+
+</resources>
