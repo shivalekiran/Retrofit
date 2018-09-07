@@ -120,7 +120,7 @@ public class LoginActivity extends AppCompatActivity {
 
             if (!isLogin && token == null){
 
-                final String auth_code = "Basic " + Base64.encodeToString((getString(R.string.ARUNTEST)+ ":" + "A123").getBytes(), Base64.NO_WRAP);
+                final String auth_code = "";
                 loginStoreListCall = apiService.login(auth_code);
                 loginStoreListCall.enqueue(new Callback<Login_StoreList>() {
                     @Override
